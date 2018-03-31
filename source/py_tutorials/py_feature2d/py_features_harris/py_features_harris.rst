@@ -46,9 +46,9 @@ Then comes the main part. After this, they created a score, basically an equatio
 where
     * :math:`det(M) = \lambda_1 \lambda_2`
     * :math:`trace(M) = \lambda_1 + \lambda_2`
-    * :math:`\lambda_1` and :math:`\lambda_2` are the eigen values of M
+    * :math:`\lambda_1` and :math:`\lambda_2` are the eigenvalues of M
     
-So the values of these eigen values decide whether a region is corner, edge or flat.
+So the values of these eigenvalues decide whether a region is corner, edge or flat.
 
     * When :math:`|R|` is small, which happens when :math:`\lambda_1` and :math:`\lambda_2` are small, the region is flat.
     * When :math:`R<0`, which happens when :math:`\lambda_1 >> \lambda_2` or vice versa, the region is edge.
